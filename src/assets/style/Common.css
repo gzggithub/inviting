@@ -1,0 +1,125 @@
+@media screen and (min-width: 320px) {
+    html {
+        font-size:42.66667px
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html {
+        font-size:48px
+    }
+}
+
+@media screen and (min-width: 365px) {
+    html {
+        font-size:48.66667px
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size:50px
+    }
+}
+
+@media screen and (min-width: 411px) {
+    html {
+        font-size:54.8px
+    }
+}
+
+@media screen and (min-width: 412px) {
+    html {
+        font-size:54.93333px
+    }
+}
+
+@media screen and (min-width: 414px) {
+    html {
+        font-size:55.2px
+    }
+}
+
+@media screen and (min-width: 750px) {
+    html {
+        font-size:100px
+    }
+}
+
+body {
+    font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0 !important;
+}
+
+body,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,html,input,li,ol,p,pre,ul {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+dd,dl,dt,li,ol,ul {
+    list-style: none
+}
+
+* {
+    box-sizing: border-box;
+    letter-spacing: 0
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit
+}
+
+img {
+    border: 0
+}
+
+input {
+    background: transparent;
+    appearance: none
+}
+
+input,textarea {
+    border: none;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+
+textarea {
+    resize: none;
+    appearance: button
+}
+
+pre,textarea {
+    font-family: inherit
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.vue-slider-dot {
+    transform: translateX(-6px)
+}
